@@ -1,0 +1,148 @@
+/* MINIMAL SCREENS FOR MOBILES */
+@media only screen and (min-width : 320px) and (max-width : 950px) {
+	
+body{
+	background: url('../img/top_bg.jpg')no-repeat top;
+}
+#post{
+	display: none;
+}
+#post-min{
+	
+	display: inline-block;
+	position: relative;
+	z-index: 99;
+	padding-top: 30px;
+	margin: 10% 0 19% 12%;
+}
+#post-min h2{
+	font-weight: bold;
+	font-size: 4em;
+	line-height: 1.5em;
+	font-family: 'Kalinga', sans-serif;
+	text-decoration: underline;
+}
+#post-min p{
+	line-height: 1.5em;
+	font-size: 3em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post-min span a{
+	position: absolute;
+	margin: 14px 0px;
+	background: #208b0a;
+	text-decoration: none;
+	padding: .8em 4em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 1.6em;
+}
+#about{	
+	position: relative;
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	text-align: center;
+	padding: 1% 0 2%;
+	margin-top: 53%;
+	font-family: 'Open Sans Condensed', 'Century Gothic', sans-serif;
+
+	}
+#about h3{	
+
+	color: #f5f5f5;
+	font-size: 3.7em;
+	font-family: 'Open Sans Condensed', 'Century Gothic', sans-serif;
+	padding: 0 0 10px;
+
+}
+#about ul li{
+	display: inline-block;
+	padding: 25px 5px 5px;
+	color: #f5f5f5;
+	font-size: 2.2em;
+	font-family: 'Open Sans Condensed', 'Kalinga', sans-serif;
+}
+}
+
+
+/* IPADS AND DESKTOPS */
+
+@media only screen and (min-width : 952px) and (max-width : 1024px) {
+/* STYLES GO HERE */
+#post{
+	position: relative;
+	top: 150px;
+	z-index: 99;
+	margin: 0 0 20% 15%;
+}
+#post h2{
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 1.5em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post p{
+	line-height: 1.5em;
+	font-size: 1.4em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post span a{
+	position: absolute;
+	margin: 14px 0px;
+	background: #208b0a;
+	text-decoration: none;
+	padding: 1em 3.5em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 1.6em;
+}
+
+#about{	
+	
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	text-align: center;
+	padding: 1% 0 2%;
+	margin-top: 28%;
+	font-family: 'Open Sans Condensed', 'Century Gothic', sans-serif;
+
+	}
+
+}
+
+
+/*DESKTOPS AND LARGE SCREENS  */
+@media only screen and (min-width : 1025px) and (max-width : 1385px) {
+#post{
+	position: relative;
+	top: 150px;
+	z-index: 99;
+	margin: 0 0 20% 15%;
+}
+#post h2{
+	font-weight: bold;
+	font-size: 4em;
+	line-height: 1.5em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post p{
+	line-height: 1.8em;
+	font-size: 1.4em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post span a{
+	position: absolute;
+	margin: 14px 0px;
+	background: #208b0a;
+	text-decoration: none;
+	padding: 1em 3.5em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 1.6em;
+}
+
+	}
+
