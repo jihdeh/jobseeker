@@ -32,7 +32,7 @@ body{
 }
 #post-min span a{
 	position: absolute;
-	margin: 14px 0px;
+	margin: 14px 0;
 	background: #208b0a;
 	text-decoration: none;
 	padding: .8em 4em;
@@ -92,7 +92,7 @@ body{
 }
 #post span a{
 	position: absolute;
-	margin: 14px 0px;
+	margin: 14px 0;
 	background: #208b0a;
 	text-decoration: none;
 	padding: 1em 3.5em;
@@ -137,7 +137,7 @@ body{
 }
 #post span a{
 	position: absolute;
-	margin: 14px 0px;
+	margin: 14px 0;
 	background: #208b0a;
 	text-decoration: none;
 	padding: 1em 3.5em;
