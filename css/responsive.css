@@ -30,9 +30,9 @@ body{
 	font-size: 3em;
 	font-family: 'Kalinga', sans-serif;
 }
-#post-min span a{
+#post-min a{
 	position: absolute;
-	margin: 14px 0px;
+	margin: 14px 0;
 	background: #208b0a;
 	text-decoration: none;
 	padding: .8em 4em;
@@ -41,6 +41,11 @@ body{
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.6em;
 }
+#post-min a:hover{
+	text-decoration: underline;
+	color: #bababa;
+}
+
 #about{	
 	position: relative;
 	background: rgba(0,0,0,.7);
@@ -90,9 +95,9 @@ body{
 	font-size: 1.4em;
 	font-family: 'Kalinga', sans-serif;
 }
-#post span a{
+#post a{
 	position: absolute;
-	margin: 14px 0px;
+	margin: 14px 0;
 	background: #208b0a;
 	text-decoration: none;
 	padding: 1em 3.5em;
@@ -100,6 +105,10 @@ body{
 	text-align: center;
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.6em;
+}
+#post a:hover{
+	text-decoration: underline;
+	color: #bababa;
 }
 
 #about{	
@@ -137,7 +146,7 @@ body{
 }
 #post span a{
 	position: absolute;
-	margin: 14px 0px;
+	margin: 14px 0;
 	background: #208b0a;
 	text-decoration: none;
 	padding: 1em 3.5em;
@@ -146,6 +155,11 @@ body{
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.6em;
 }
+#post a:hover{
+	text-decoration: underline;
+	color: #bababa;
+}
+
 
 	}
 
