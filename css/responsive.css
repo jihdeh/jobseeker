@@ -4,48 +4,62 @@
 body{
 	background: url('../img/top_bg.jpg')no-repeat top;
 }
+
+/******NAVIGATION **********/
+
+nav a{
+	text-decoration: none;
+	color: #000;
+	font-family: 'Open Sans Condensed', 'Kalinga', sans-serif;
+	z-index: 99;
+	font-size: .8em;
+
+}
+
+/*************** HEADER BODY MAIN **********************/
+.img-1{
+	z-index: 99;
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	width:15%;
+}
+
 #main{
 	background: none;
 }
 #post{
-	display: none;
-}
-#post-min{
-	
-	display: inline-block;
 	position: relative;
+	top: 120px;
 	z-index: 99;
-	padding-top: 30px;
-	margin: 10% 0 19% 12%;
+	margin: 0 0 20% 15%;
 }
-#post-min h2{
+#post h2{
 	font-weight: bold;
-	font-size: 4em;
-	line-height: 1.5em;
-	font-family: 'Kalinga', sans-serif;
-	text-decoration: underline;
-}
-#post-min p{
-	line-height: 1.5em;
 	font-size: 3em;
+	line-height: 1.5em;
 	font-family: 'Kalinga', sans-serif;
 }
-#post-min a{
+#post p{
+	line-height: 1.5em;
+	font-size: 1.5em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post a{
 	position: absolute;
 	margin: 14px 0;
 	background: #208b0a;
 	text-decoration: none;
-	padding: .8em 4em;
+	padding: 1em 3.5em;
 	color: #fff;
 	text-align: center;
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.6em;
 }
-#post-min a:hover{
+#post a:hover{
 	text-decoration: underline;
 	color: #bababa;
 }
-
 #about{	
 	position: relative;
 	background: rgba(0,0,0,.7);
@@ -78,6 +92,8 @@ body{
 
 @media only screen and (min-width : 952px) and (max-width : 1024px) {
 /* STYLES GO HERE */
+
+/*************** HEADER BODY MAIN **********************/
 #post{
 	position: relative;
 	top: 150px;
@@ -127,6 +143,9 @@ body{
 
 /*DESKTOPS AND LARGE SCREENS  */
 @media only screen and (min-width : 1025px) and (max-width : 1385px) {
+	
+	/*************** HEADER BODY MAIN **********************/
+
 #post{
 	position: relative;
 	top: 150px;
