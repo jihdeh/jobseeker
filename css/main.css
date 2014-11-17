@@ -70,7 +70,7 @@ nav a:hover{
 	font-size: 1.8em;
 	font-family: 'Kalinga', sans-serif;
 }
-#post span a{
+#post a{
 	position: absolute;
 	margin: 14px 0;
 	background: #208b0a;
@@ -80,6 +80,10 @@ nav a:hover{
 	text-align: center;
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.6em;
+}
+#post a:hover{
+	text-decoration: underline;
+	color: #bababa;
 }
 
 #about{	
@@ -154,7 +158,7 @@ nav a:hover{
 	font-family: 'NSimSun', sans-serif;
 	font-size: 2em;	
 }
-#row-2 span a{
+#row-2 a{
 	background: #208b0a;
 	text-decoration: none;
 	padding: 1em 3.5em;
@@ -164,6 +168,11 @@ nav a:hover{
 	font-size: 1.9em;
 	
 }
+#row-2 a:hover{
+	text-decoration: underline;
+	color: #bababa;
+}
+
 
 /*************** ROW THREE MAIN PARTNERS **********************/
 #row-3 h2{
@@ -190,9 +199,6 @@ nav a:hover{
 	padding: 15% 40%;
 
 }
-
-
-
 
 
 /*************** FOOTER **********************/
