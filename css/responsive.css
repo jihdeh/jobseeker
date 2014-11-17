@@ -4,6 +4,9 @@
 body{
 	background: url('../img/top_bg.jpg')no-repeat top;
 }
+#main{
+	background: none;
+}
 #post{
 	display: none;
 }
