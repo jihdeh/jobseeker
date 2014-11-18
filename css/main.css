@@ -26,6 +26,7 @@ nav a{
 	text-decoration: none;
 	color: #000;
 	font-family: 'Open Sans Condensed', 'Kalinga', sans-serif;
+	z-index: 99;
 }
 nav a:hover{
 	text-decoration: underline;
@@ -183,22 +184,23 @@ nav a:hover{
 	color: #888888;
 	font-size: 50px;	
 }
-.partners li{
-	
-	float:left;
-	width: 15.33333%;
-	margin: 4% 5% 4% 4%;
-	padding: 0;
-	clear: right;
-	
-}
-.partners img{
-	width: 50%;
-	height:50%;
-	border: 1px solid #bababa;
-	padding: 15% 40%;
-	}
 
+.partners h2 {
+	font-size: 2.4vw;
+	color: #919191;
+	margin-bottom: 4%
+}
+
+.partners li {
+	display: inline;
+}
+
+.partners img {
+	width: 8%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1.34% 5%;
+	margin: 2% 2% 5% 2%;
+}
 
 /*************** FOOTER **********************/
 footer{
