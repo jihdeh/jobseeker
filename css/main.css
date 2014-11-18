@@ -131,6 +131,8 @@ nav a:hover{
 	width: 80%;
 	padding: 0 10% 5%;
 }
+
+/*******************ROW 2 'LOOKING FOR A JOB' *******************/
 #row-2{
 
 	background: url('../img/blurred_bg.jpg') no-repeat;
@@ -167,13 +169,7 @@ nav a:hover{
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.9em;
 	
-<<<<<<< HEAD
-}
-#row-2 a:hover{
-	text-decoration: underline;
-	color: #bababa;
-=======
->>>>>>> 92516c2d495b9215e941ce2427d17184abce4987
+
 }
 #row-2 a:hover{
 	text-decoration: underline;
@@ -205,8 +201,7 @@ nav a:hover{
 	height:50%;
 	border: 1px solid #bababa;
 	padding: 15% 40%;
-
-}
+	}
 
 
 /*************** FOOTER **********************/
@@ -235,12 +230,4 @@ footer{
 }
 .col-l a:hover{
 	text-decoration: underline;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> d39cebb9bd0a87b7e87fde70598aeb8b0043d1a1
-=======
-}
->>>>>>> 92516c2d495b9215e941ce2427d17184abce4987
