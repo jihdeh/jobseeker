@@ -1,48 +1,103 @@
 /* MINIMAL SCREENS FOR MOBILES */
-@media only screen and (min-width : 320px) and (max-width : 950px) {
+
+@media only screen and (min-width : 200px) and (max-width : 589px) {
+
+	/*NAVIGATION */
+	nav {
 	
-body{
-	background: url('../img/top_bg.jpg')no-repeat top;
+	width: 100%; 
+	height: 55px; 
+	top: 0; 
+	padding: 13px 0 0 0; 
+	background: rgba(253,253,253,.5);
+  	z-index: 99;
+  	font-weight: bold;
 }
 
-/******NAVIGATION **********/
-
-nav a{
-	text-decoration: none;
-	color: #000;
-	font-family: 'Open Sans Condensed', 'Kalinga', sans-serif;
+nav ul li{
+	display:inline;
+	float: right;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 10px;
+	padding-left: 18px;
+	font-weight: bold;
 	z-index: 99;
-	font-size: .8em;
-
 }
 
-/*************** HEADER BODY MAIN **********************/
-.img-1{
+
+
+/*******LOGO ********/
+	.img-1{
 	z-index: 99;
 	position: absolute;
-	top: 30px;
+	top: 20px;
 	left: 50px;
 	width:15%;
 }
 
-#main{
-	background: none;
-}
-#post{
+/******** HEADER BODY MAIN *****/
+	#post{
 	position: relative;
-	top: 120px;
+	top: 10px;
 	z-index: 99;
 	margin: 0 0 20% 15%;
 }
 #post h2{
 	font-weight: bold;
-	font-size: 3em;
+	font-size: 2em;
 	line-height: 1.5em;
 	font-family: 'Kalinga', sans-serif;
 }
 #post p{
 	line-height: 1.5em;
-	font-size: 1.5em;
+	font-size: 1em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post a{
+	position: absolute;
+	margin: 8px 0;
+	background: #208b0a;
+	text-decoration: none;
+	padding: 1em 3em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 1em;
+}
+	/*******************ROW 2 'LOOKING FOR A JOB' *******************/
+#row-2 a{
+	background: #208b0a;
+	text-decoration: none;
+	padding: 1em 1em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 1.2em;
+	
+
+}
+
+	}
+
+	/* Iphones */
+@media only screen and (min-width : 590px) and (max-width : 899px) {
+
+	/******** HEADER BODY MAIN *****/
+	#post{
+	position: relative;
+	top: 70px;
+	z-index: 99;
+	margin: 0 0 20% 15%;
+}
+#post h2{
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 1.5em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post p{
+	line-height: 1.5em;
+	font-size: 1em;
 	font-family: 'Kalinga', sans-serif;
 }
 #post a{
@@ -56,41 +111,13 @@ nav a{
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.6em;
 }
-#post a:hover{
-	text-decoration: underline;
-	color: #bababa;
-}
-#about{	
-	position: relative;
-	background: rgba(0,0,0,.7);
-	width: 100%;
-	text-align: center;
-	padding: 1% 0 2%;
-	margin-top: 53%;
-	font-family: 'Open Sans Condensed', 'Century Gothic', sans-serif;
+
 
 	}
-#about h3{	
-
-	color: #f5f5f5;
-	font-size: 3.7em;
-	font-family: 'Open Sans Condensed', 'Century Gothic', sans-serif;
-	padding: 0 0 10px;
-
-}
-#about ul li{
-	display: inline-block;
-	padding: 25px 5px 5px;
-	color: #f5f5f5;
-	font-size: 2.2em;
-	font-family: 'Open Sans Condensed', 'Kalinga', sans-serif;
-}
-}
-
 
 /* IPADS AND DESKTOPS */
 
-@media only screen and (min-width : 952px) and (max-width : 1024px) {
+@media only screen and (min-width : 902px) and (max-width : 1024px) {
 /* STYLES GO HERE */
 
 /*************** HEADER BODY MAIN **********************/
@@ -122,10 +149,6 @@ nav a{
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.6em;
 }
-#post a:hover{
-	text-decoration: underline;
-	color: #bababa;
-}
 
 #about{	
 	
@@ -143,7 +166,7 @@ nav a{
 
 /*DESKTOPS AND LARGE SCREENS  */
 @media only screen and (min-width : 1025px) and (max-width : 1385px) {
-	
+
 	/*************** HEADER BODY MAIN **********************/
 
 #post{
@@ -173,10 +196,6 @@ nav a{
 	text-align: center;
 	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.6em;
-}
-#post a:hover{
-	text-decoration: underline;
-	color: #bababa;
 }
 
 
