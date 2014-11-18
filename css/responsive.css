@@ -1,9 +1,108 @@
 /* MINIMAL SCREENS FOR MOBILES */
+@media only screen and (min-width : 200px) and (max-width : 461px) {
+	/*NAVIGATION */
+nav {
+	
+	width: 100%; 
+	height: 55px; 
+	top: 0; 
+	padding: 13px 0 0 0; 
+	background: rgba(253,253,253,.5);
+  	z-index: 99;
+  	font-weight: bold;
+}
 
-@media only screen and (min-width : 200px) and (max-width : 589px) {
+nav ul li{
+	display:inline;
+	float: right;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 10px;
+	padding-left: 18px;
+	font-weight: bold;
+	z-index: 99;
+}
+
+/*******LOGO ********/
+.img-1{
+	z-index: 99;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	width:15%;
+}
+
+/******** HEADER BODY MAIN *****/
+#post{
+	position: relative;
+	top: 90px;
+	z-index: 99;
+	margin: 0 0 20% 15%;
+}
+#post h2{
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post p{
+	line-height: 1.2em;
+	font-size: .8em;
+	font-family: 'Kalinga', sans-serif;
+}
+#post a{
+	position: absolute;
+	margin: 0 0;
+	background: #208b0a;
+	text-decoration: none;
+	padding: .6em 2em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 1em;
+}
+#about{	
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	text-align: center;
+	padding: 1% 0 2%;
+	margin-top: 50%;
+	font-family: 'Open Sans Condensed', 'Century Gothic', sans-serif;
+
+}
+#about h3{	
+	color: #f5f5f5;
+	font-size: 2em;
+	font-family: 'Open Sans Condensed', 'Century Gothic', sans-serif;
+	padding: 0 0 10px;
+
+}
+#about ul li{
+	display: inline-block;
+	padding: 10px 5px 5px;
+	color: #f5f5f5;
+	font-size:1em;
+	font-family: 'Open Sans Condensed', 'Kalinga', sans-serif;
+}
+
+	/*******************ROW 2 'LOOKING FOR A JOB' *******************/
+#row-2 a{
+	background: #208b0a;
+	text-decoration: none;
+	padding: 1em 1em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 1.2em;
+	
+
+}
+
+	}
+
+@media only screen and (min-width : 462px) and (max-width : 589px) {
 
 	/*NAVIGATION */
-	nav {
+nav {
 	
 	width: 100%; 
 	height: 55px; 
@@ -36,9 +135,9 @@ nav ul li{
 }
 
 /******** HEADER BODY MAIN *****/
-	#post{
+#post{
 	position: relative;
-	top: 10px;
+	top: 70px;
 	z-index: 99;
 	margin: 0 0 20% 15%;
 }
@@ -81,9 +180,17 @@ nav ul li{
 
 	/* Iphones */
 @media only screen and (min-width : 590px) and (max-width : 899px) {
+	/*******LOGO ********/
+.img-1{
+	z-index: 99;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	width:15%;
+}
 
 	/******** HEADER BODY MAIN *****/
-	#post{
+#post{
 	position: relative;
 	top: 70px;
 	z-index: 99;
@@ -150,18 +257,8 @@ nav ul li{
 	font-size: 1.6em;
 }
 
-#about{	
-	
-	background: rgba(0,0,0,.7);
-	width: 100%;
-	text-align: center;
-	padding: 1% 0 2%;
-	margin-top: 28%;
-	font-family: 'Open Sans Condensed', 'Century Gothic', sans-serif;
 
 	}
-
-}
 
 
 /*DESKTOPS AND LARGE SCREENS  */
@@ -200,4 +297,3 @@ nav ul li{
 
 
 	}
-
