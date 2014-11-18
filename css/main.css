@@ -1,7 +1,7 @@
 
 /*********** NAVIGATION ********/
 nav {
-	
+	position: fixed;
 	width: 100%; 
 	height: 55px; 
 	top: 0; 
@@ -12,7 +12,6 @@ nav {
 }
 nav ul{
 	margin: 1% 90px;
-	z-index: 99;
 }
 nav ul li{
 	display:inline;
@@ -21,14 +20,12 @@ nav ul li{
 	font-size: 20px;
 	padding-left: 18px;
 	font-weight: bold;
-	z-index: 99;
+	
 }
 nav a{
 	text-decoration: none;
 	color: #000;
 	font-family: 'Open Sans Condensed', 'Kalinga', sans-serif;
-	z-index: 99;
-
 }
 nav a:hover{
 	text-decoration: underline;
@@ -56,7 +53,6 @@ nav a:hover{
 #post{
 	position: relative;
 	top: 290px;
-	z-index: 99;
 	margin: 0 0 20% 15%;
 }
 #post h2{
