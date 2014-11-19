@@ -1,5 +1,6 @@
 /*********** NAVIGATION ********/
 nav {
+<<<<<<< HEAD
   position: fixed;
   width: 100%; 
   height: 55px; 
@@ -8,13 +9,28 @@ nav {
   background: rgba(253,253,253,.5);
   z-index: 2;
   font-weight: bold;
+=======
+	position: fixed;
+	width: 100%; 
+	height: 55px; 
+	top: 0; 
+	padding: 13px 0 0 0; 
+	background: rgba(253,253,253,.5);
+  	z-index: 99;
+  	font-weight: bold;
+>>>>>>> 14a2adbf5206cd6f41efbd350b32d6ad1f9603f6
 }
 
 nav ul{
+<<<<<<< HEAD
   margin: 1% 90px;
+=======
+	margin: 1% 90px;
+>>>>>>> 14a2adbf5206cd6f41efbd350b32d6ad1f9603f6
 }
 
 nav ul li{
+<<<<<<< HEAD
   display: inline;
   float: right;
   font-size: 100%;
@@ -26,6 +42,21 @@ nav a{
   text-decoration: none;
   color: #000;
   font-family: 'Open Sans Condensed', 'Kalinga', sans-serif;
+=======
+	display:inline;
+	float: right;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 20px;
+	padding-left: 18px;
+	font-weight: bold;
+	
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+	font-family: 'Open Sans Condensed', 'Kalinga', sans-serif;
+	z-index: 99;
+>>>>>>> 14a2adbf5206cd6f41efbd350b32d6ad1f9603f6
 }
 
 nav a:hover{
@@ -48,10 +79,16 @@ nav a:hover{
 }
 
 #post{
+<<<<<<< HEAD
   position: relative;
   top: 200px;
   margin: 0 0 20% 18%;
   font-family: 'Kalinga', sans-serif;
+=======
+	position: relative;
+	top: 290px;
+	margin: 0 0 20% 15%;
+>>>>>>> 14a2adbf5206cd6f41efbd350b32d6ad1f9603f6
 }
 
 #post h2{
@@ -202,6 +239,7 @@ nav a:hover{
 }
 
 #row-2 a{
+<<<<<<< HEAD
   background: #208b0a;
   text-decoration: none;
   padding: .6em 2em;
@@ -209,12 +247,29 @@ nav a:hover{
   text-align: center;
   font-family: 'Century Gothic', sans-serif;
   font-size: 1.9em;
+=======
+	background: #208b0a;
+	text-decoration: none;
+	padding: 1em 3.5em;
+	color: #fff;
+	text-align: center;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 1.9em;
+	
+
+>>>>>>> 14a2adbf5206cd6f41efbd350b32d6ad1f9603f6
 }
 
 #row-2 a:hover{
   text-decoration: underline;
   color: #bababa;
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 14a2adbf5206cd6f41efbd350b32d6ad1f9603f6
 /*************** ROW THREE MAIN PARTNERS **********************/
 #row-3 h2{
   padding: 20px 0;
@@ -225,6 +280,7 @@ nav a:hover{
   font-size: 50px;  
 }
 
+<<<<<<< HEAD
 .partners h2{
   font-size: 2.4vw;
   color: #919191;
@@ -241,6 +297,23 @@ nav a:hover{
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.34% 5%;
   margin: 2% 0 5%;
+=======
+.partners h2 {
+	font-size: 2.4vw;
+	color: #919191;
+	margin-bottom: 4%
+}
+
+.partners li {
+	display: inline;
+}
+
+.partners img {
+	width: 8%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1.34% 5%;
+	margin: 2% 2% 5% 2%;
+>>>>>>> 14a2adbf5206cd6f41efbd350b32d6ad1f9603f6
 }
 
 /*************** FOOTER **********************/
